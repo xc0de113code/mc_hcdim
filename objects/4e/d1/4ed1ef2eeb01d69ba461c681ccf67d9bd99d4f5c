@@ -1,0 +1,118 @@
+[10:40:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:40:02] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:40:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:40:02] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[10:40:02] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2838 for Minecraft 1.12.2 loading
+[10:40:02] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_261, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_261
+[10:40:02] [main/DEBUG] [FML]: Java classpath at launch is:
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\minecraftforge\forge\1.12.2-14.23.5.2838\forge-1.12.2-14.23.5.2838.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\minecraft\launchwrapper\1.12\launchwrapper-1.12.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\ow2\asm\asm-all\5.2\asm-all-5.2.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\jline\jline\3.5.1\jline-3.5.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\typesafe\akka\akka-actor_2.11\2.3.3\akka-actor_2.11-2.3.3.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\typesafe\config\1.2.1\config-1.2.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\scala-actors-migration_2.11\1.1.0\scala-actors-migration_2.11-1.1.0.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\scala-compiler\2.11.1\scala-compiler-2.11.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\plugins\scala-continuations-library_2.11\1.0.2\scala-continuations-library_2.11-1.0.2.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\plugins\scala-continuations-plugin_2.11.1\1.0.2\scala-continuations-plugin_2.11.1-1.0.2.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\scala-library\2.11.1\scala-library-2.11.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\scala-parser-combinators_2.11\1.0.1\scala-parser-combinators_2.11-1.0.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\scala-reflect\2.11.1\scala-reflect-2.11.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\scala-swing_2.11\1.0.1\scala-swing_2.11-1.0.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\scala-lang\scala-xml_2.11\1.0.2\scala-xml_2.11-1.0.2.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\lzma\lzma\0.0.1\lzma-0.0.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\java3d\vecmath\1.5.2\vecmath-1.5.2.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\sf\trove4j\trove4j\3.0.3\trove4j-3.0.3.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\apache\maven\maven-artifact\3.5.3\maven-artifact-3.5.3.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\mojang\patchy\1.1\patchy-1.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\oshi-project\oshi-core\1.1\oshi-core-1.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\java\dev\jna\jna\4.4.0\jna-4.4.0.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\java\dev\jna\platform\3.4.0\platform-3.4.0.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\ibm\icu\icu4j-core-mojang\51.2\icu4j-core-mojang-51.2.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\sf\jopt-simple\jopt-simple\5.0.3\jopt-simple-5.0.3.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\paulscode\codecjorbis\20101023\codecjorbis-20101023.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\paulscode\codecwav\20101023\codecwav-20101023.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\paulscode\libraryjavasound\20101123\libraryjavasound-20101123.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\paulscode\librarylwjglopenal\20100824\librarylwjglopenal-20100824.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\paulscode\soundsystem\20120107\soundsystem-20120107.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\io\netty\netty-all\4.1.9.Final\netty-all-4.1.9.Final.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\google\guava\guava\21.0\guava-21.0.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\apache\commons\commons-lang3\3.5\commons-lang3-3.5.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\commons-io\commons-io\2.5\commons-io-2.5.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\commons-codec\commons-codec\1.10\commons-codec-1.10.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\java\jinput\jinput\2.0.5\jinput-2.0.5.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\net\java\jutils\jutils\1.0.0\jutils-1.0.0.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\google\code\gson\gson\2.8.0\gson-2.8.0.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\mojang\authlib\1.5.25\authlib-1.5.25.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\mojang\realms\1.10.19\realms-1.10.19.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\apache\commons\commons-compress\1.8.1\commons-compress-1.8.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\apache\httpcomponents\httpclient\4.3.3\httpclient-4.3.3.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\commons-logging\commons-logging\1.1.3\commons-logging-1.1.3.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\apache\httpcomponents\httpcore\4.3.2\httpcore-4.3.2.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\it\unimi\dsi\fastutil\7.1.0\fastutil-7.1.0.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\apache\logging\log4j\log4j-api\2.8.1\log4j-api-2.8.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\apache\logging\log4j\log4j-core\2.8.1\log4j-core-2.8.1.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\lwjgl\lwjgl\lwjgl\2.9.4-nightly-20150209\lwjgl-2.9.4-nightly-20150209.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\org\lwjgl\lwjgl\lwjgl_util\2.9.4-nightly-20150209\lwjgl_util-2.9.4-nightly-20150209.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\libraries\com\mojang\text2speech\1.10.3\text2speech-1.10.3.jar
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\versions\1.12.2\1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Java library path at launch is:
+[10:40:02] [main/DEBUG] [FML]:     C:\Users\jacob\Desktop\df\.\temp\extract\1595439598291
+[10:40:02] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: C:\Users\jacob\Desktop\df\libraries
+[10:40:02] [main/DEBUG] [FML]: Cleaning up mods folder: C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods
+[10:40:02] [main/DEBUG] [FML]: Examining file: Advanced-Fishing-1.12.2-1.3.3.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: aether_ii-1.12.2-0.3.0+build411-universal.jar
+[10:40:02] [main/DEBUG] [FML]: Extracting ContainedDep orbis-lib-1.12.2-0.2.0+build411-universal.jar(com.gildedgames:orbis-lib:1.12.2-0.2.0+build411) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\aether_ii-1.12.2-0.3.0+build411-universal.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\com\gildedgames\orbis-lib\1.12.2-0.2.0+build411\orbis-lib-1.12.2-0.2.0+build411.jar
+[10:40:02] [main/DEBUG] [FML]: Extracted ContainedDep orbis-lib-1.12.2-0.2.0+build411-universal.jar(com.gildedgames:orbis-lib:1.12.2-0.2.0+build411) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\aether_ii-1.12.2-0.3.0+build411-universal.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\com\gildedgames\orbis-lib\1.12.2-0.2.0+build411\orbis-lib-1.12.2-0.2.0+build411.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: orbis-lib-1.12.2-0.2.0+build411.jar
+[10:40:02] [main/DEBUG] [FML]: Extracting ContainedDep phosphor-1.12.2-0.2.6+build50-universal.jar(me.jellysquid.mods:phosphor:1.12.2-0.2.6+build50) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\aether_ii-1.12.2-0.3.0+build411-universal.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\me\jellysquid\mods\phosphor\1.12.2-0.2.6+build50\phosphor-1.12.2-0.2.6+build50.jar
+[10:40:02] [main/DEBUG] [FML]: Extracted ContainedDep phosphor-1.12.2-0.2.6+build50-universal.jar(me.jellysquid.mods:phosphor:1.12.2-0.2.6+build50) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\aether_ii-1.12.2-0.3.0+build411-universal.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\me\jellysquid\mods\phosphor\1.12.2-0.2.6+build50\phosphor-1.12.2-0.2.6+build50.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: phosphor-1.12.2-0.2.6+build50.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Atum-1.12.2-2.0.17.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Baubles-1.12-1.5.2.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: BetterFps-1.4.8.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Bookshelf-1.12.2-2.3.585.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Chisel-MC1.12.2-1.0.2.45.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: CTM-MC1.12.2-1.0.2.31.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: CustomMainMenu-MC1.12.2-2.0.9.1.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: DarknessLib-1.12.2-1.1.0.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: DimensionalDoors-1.12.2-3.1.2-UNOFFICIAL.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: DynamicLights-1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Erebus-1.0.31.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: foamfix-0.10.10-1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: GameStages-1.12.2-2.0.123.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: GraveStone-1.12.2-Extended-1.3.5.1.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: GraveStone-1.12.2-Graves-1.3.1.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Grue-1.12.2-1.8.0.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: HuntingDimension-1.12.2-1.0.42.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Hwyla-1.8.26-B41_1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-0.12-92.jar
+[10:40:02] [main/DEBUG] [FML]: Extracting ContainedDep META-INF/libraries/ImmersiveEngineering-0.12-92-core.jar(blusunrize:ImmersiveEngineering-core:0.12-92) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\ImmersiveEngineering-0.12-92.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\blusunrize\ImmersiveEngineering-core\0.12-92\ImmersiveEngineering-core-0.12-92.jar
+[10:40:02] [main/DEBUG] [FML]: Extracted ContainedDep META-INF/libraries/ImmersiveEngineering-0.12-92-core.jar(blusunrize:ImmersiveEngineering-core:0.12-92) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\ImmersiveEngineering-0.12-92.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\blusunrize\ImmersiveEngineering-core\0.12-92\ImmersiveEngineering-core-0.12-92.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: ImmersiveEngineering-core-0.12-92.jar
+[10:40:02] [main/DEBUG] [FML]: Making maven link for blusunrize:ImmersiveEngineering:0.12-92 in memory to C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\ImmersiveEngineering-0.12-92.jar.
+[10:40:02] [main/DEBUG] [FML]: Examining file: jei_1.12.2-4.15.0.293.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: LLibrary-1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Extracting ContainedDep llibrary-core-1.0.11-1.12.2.jar(net.ilexiconn:llibrary-core:1.0.11-1.12.2) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\LLibrary-1.12.2.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\net\ilexiconn\llibrary-core\1.0.11-1.12.2\llibrary-core-1.0.11-1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Extracted ContainedDep llibrary-core-1.0.11-1.12.2.jar(net.ilexiconn:llibrary-core:1.0.11-1.12.2) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\LLibrary-1.12.2.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\net\ilexiconn\llibrary-core\1.0.11-1.12.2\llibrary-core-1.0.11-1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: llibrary-core-1.0.11-1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Making maven link for net.ilexiconn:llibrary:1.7.18-1.12.2 in memory to C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\LLibrary-1.12.2.jar.
+[10:40:02] [main/DEBUG] [FML]: Examining file: lostcities-1.12-2.0.22.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Mantle-1.12-1.3.3.55.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: MistyWorld-1.12.2-1.2.4.6.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: mystcraft-1.12.2-0.13.7.06.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: OptiFine_1.12.2_HD_U_F5.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: parry-1.0-hotfix.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Patchouli-1.0-20.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: performant-1.12.2-1.10.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: phosphor-1.12.2-0.2.6+build50-universal.jar
+[10:40:02] [main/DEBUG] [FML]: Making maven link for me.jellysquid.mods:phosphor:1.12.2-0.2.6+build50 in memory to C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\phosphor-1.12.2-0.2.6+build50-universal.jar.
+[10:40:02] [main/DEBUG] [FML]: Examining file: Realm-of-The-Dragons-Mod-1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: SmoothEntityLight-3.0.6-MC1.12.2.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Surge-1.12.2-2.0.77.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: TConstruct-1.12.2-2.13.0.183.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: TexFix+V-1.12-4.0.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: Thaumcraft-1.12.2-6.1.BETA26.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: The+Beneath-1.12.2-1.7.0.jar
+[10:40:02] [main/DEBUG] [FML]: Examining file: TheBetweenlands-3.6.0-universal.jar
+[10:40:03] [main/DEBUG] [FML]: Extracting ContainedDep TheBetweenlands-3.6.0-core.jar(angrypixel:TheBetweenlands:3.6.0:core) from C:\Users\jacob\Desktop\df\.\instances\1048-HFG4-HF7K-27JD\minecraft\mods\TheBetweenlands-3.6.0-universal.jar to C:\Users\jacob\Desktop\df\instances\1048-HFG4-HF7K-27JD\minecraft\mods\memory_repo\angrypixel\TheBetweenlands\3.6.0\TheBetweenlands-3.6.0-core.jar
