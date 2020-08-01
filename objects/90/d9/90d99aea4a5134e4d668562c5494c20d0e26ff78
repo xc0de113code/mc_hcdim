@@ -1,0 +1,222 @@
+# Configuration file
+
+main {
+
+    hud {
+        # Display additional information in HUD that may not be especially useful to most players. [default: false]
+        B:"Advanced Mode"=false
+
+        # Hide the HUD when a GUI is open. The HUD will still remain visible if the GUI pauses the game. [default: true]
+        B:"Hide When GUI Is Open"=true
+
+        positioning {
+            # The positioning of the HUD. Can be TOP_LEFT, TOP_CENTER, TOP_RIGHT, CENTER_LEFT, CENTER_RIGHT, BOTTOM_LEFT, BOTTOM_MIDDLE, or BOTTOM_RIGHT [default: TOP_CENTER]
+            S:Position=TOP_CENTER
+
+            # The justification of text in the HUD. Can be LEFT, CENTER, or RIGHT [default: CENTER]
+            S:"Text Justification"=CENTER
+
+            # Fine-tune the position of the HUD. [range: -1.0 ~ 1.0, default: 0.0]
+            S:"X Offset"=0.0
+
+            # Fine-tune the position of the HUD. [range: -1.0 ~ 1.0, default: 0.0]
+            S:"Y Offset"=0.0
+        }
+
+        display {
+            # Opacity (alpha) of the HUD background image. [range: 0.0 ~ 1.0, default: 0.8]
+            S:"Background Opacity"=0.8
+
+            # Show monster egg (silverfish) blocks as the blocks they look like in the HUD (requires restart) [default: true]
+            B:"Disguise Monster Egg Blocks"=true
+
+            # Fixes the 'sunflower bug', where the upper half of double plants are reported as sunflowers. [default: true]
+            B:"Enable Sunflower Bugfix"=true
+
+            # The maximum number of items to display for inventory contents. [range: 0 ~ 64, default: 8]
+            I:"Max Inventory List Count"=8
+
+            ##########################################################################################################
+            # object name
+            #--------------------------------------------------------------------------------------------------------#
+            # Display the block/entity name in the HUD. Example: Iron Ore, Chicken
+            ##########################################################################################################
+
+            "object name" {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &f]
+                S:"Format String 1"=&f
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: false]
+                B:"When Sneaking Only"=false
+            }
+
+            ##########################################################################################################
+            # resource name
+            #--------------------------------------------------------------------------------------------------------#
+            # Display the resource name in the HUD. Example: minecraft:stone.
+            ##########################################################################################################
+
+            "resource name" {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &7]
+                S:"Format String 1"=&7
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: true]
+                B:"When Sneaking Only"=true
+            }
+
+            ##########################################################################################################
+            # mod name
+            #--------------------------------------------------------------------------------------------------------#
+            # Display the mod name in the HUD. Example: Minecraft
+            ##########################################################################################################
+
+            "mod name" {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &5]
+                S:"Format String 1"=&5
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: false]
+                B:"When Sneaking Only"=false
+            }
+
+            ##########################################################################################################
+            # id and meta
+            #--------------------------------------------------------------------------------------------------------#
+            # Display the ID and metadata in the HUD. Example: [1:0]
+            ##########################################################################################################
+
+            "id and meta" {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &o]
+                S:"Format String 1"=&o
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: true]
+                B:"When Sneaking Only"=true
+            }
+
+            ##########################################################################################################
+            # tile entity
+            #--------------------------------------------------------------------------------------------------------#
+            # Tells if a tile entity exists for the block being looked at. Example: Furnace (TE)
+            ##########################################################################################################
+
+            "tile entity" {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &7]
+                S:"Format String 1"=&7
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: false]
+                B:"When Sneaking Only"=false
+            }
+
+            ##########################################################################################################
+            # harvestability
+            #--------------------------------------------------------------------------------------------------------#
+            # Shows whether or not a block is harvestable and with what kind of tool.
+            ##########################################################################################################
+
+            harvestability {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &a]
+                S:"Format String 1"=&a
+
+                # Secondary formatting of the text. Uses vanilla formatting codes. [default: &c]
+                S:"Format String 2"=&c
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: true]
+                B:"When Sneaking Only"=true
+            }
+
+            ##########################################################################################################
+            # inventory contents
+            #--------------------------------------------------------------------------------------------------------#
+            # Displays the contents of certain inventories, including item count.
+            ##########################################################################################################
+
+            "inventory contents" {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &f]
+                S:"Format String 1"=&f
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: false]
+                B:"When Sneaking Only"=false
+            }
+
+            ##########################################################################################################
+            # entity health
+            #--------------------------------------------------------------------------------------------------------#
+            # Display the health and max health of entities.
+            ##########################################################################################################
+
+            "entity health" {
+                # Primary formatting of the text. Uses vanilla formatting codes. [default: &f]
+                S:"Format String 1"=&f
+
+                # Set to false to never show this element. [default: true]
+                B:"Show Element"=true
+
+                # Only show the element when the player is sneaking, assuming Show Element is true. [default: false]
+                B:"When Sneaking Only"=false
+            }
+
+        }
+
+    }
+
+    tooltip {
+        # Display the food value and saturation of foods in the tooltip. [default: true]
+        B:"Food Stats"=true
+
+        # Display food stats only when holding shift. [default: true]
+        B:"Food Stats - Sneak Only"=true
+
+        # Display the item ID and damage value by the item name. [default: false]
+        B:"ID and Metadata"=false
+
+        # Display the name of the mod in tooltips. [default: true]
+        B:"Mod Name - Show"=true
+
+        # Display the name of the mod only when holding shift. [default: false]
+        B:"Mod Name - Sneak Only"=false
+
+        # Display the ore dictionary entries for the block/item. [default: true]
+        B:"Ore Dictionary - Show"=true
+
+        # Display the ore dictionary entries only when holding shift. [default: true]
+        B:"Ore Dictionary - Sneak Only"=true
+
+        # Display mining speed and durability of tools when possible. [default: true]
+        B:"Tool Stats"=true
+
+        # Display tool stats only when shift is held. [default: true]
+        B:"Tool Stats - Sneak Only"=true
+
+        formatting {
+            # Formatting for mod names. [default: &5]
+            S:"Mod Name"=&5
+
+            # Formatting for resource names. [default: &7]
+            S:"Resource Name"=&7
+        }
+
+    }
+
+}
+
+
